@@ -19,7 +19,7 @@ def count_th(word):
     # must use recursion
     count = 0
     # edge case - there is not th in the word
-    if 'th' not in word:
+    if 'th' not in word: #o(N)
         return count
     # if find a th will need to continue in the search for the next th until word is over
     # using recursive method will have to use a different way to mark ths' as found so

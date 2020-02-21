@@ -152,8 +152,7 @@ class SortingRobot:
         def light_is_on(self): - t or f
         """
         # Fill this out
-        self.set_light_on()
-        while self.light_is_on():
+        while True:
             # start sorting by picking first item
             # and swapping back None
             self.swap_item()
@@ -176,8 +175,9 @@ class SortingRobot:
                 self.move_right()
             else:
                 #stop
-                self.set_light_off()
+                break
 
+## think of a sorting method that requires a flag in order to work properly
 
 if __name__ == "__main__":
     # Test our your implementation from the command line

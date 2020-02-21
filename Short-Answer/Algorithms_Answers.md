@@ -20,7 +20,7 @@ b)
                 -- so in relation to n it would be log n
           sum += 1
   o(n) * o(log n) = o(n log n)
-   so o(n)
+   so o(n log n)
 
 c) def bunnyEars(bunnies):
       if bunnies == 0:
